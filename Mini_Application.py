@@ -6,10 +6,10 @@ from string import digits
 from string import ascii_letters as letters
 import time
 
-database = {'bandung123': {'Password': 'Bandung123', 'Email': 'bandung@gmail.com', 'Nama': 'Budi',
+database = {'admin123': {'Password': 'admin123', 'Email': 'admin@gmail.com', 'Nama': 'Budi',
  'Gender': 'L', 'Usia': 21, 'Pekerjaan': 'Pegawai Swasta', 'Hobi': 'volly, basket',
-  'Alamat': 'jl. jakarta', 'Nama Kota': 'bandung', 'RT': 2, 'RW': 13,
-   'Zip Code': 1234, 'Geo': {'Latitude': '35.2255', 'Longitude': ' 23.3222'}, 'No HP': '0832123123'}}
+  'Alamat': 'jl. ABC', 'Nama Kota': 'ABC', 'RT': 2, 'RW': 13,
+   'Zip Code': 1234, 'Geo': {'Latitude': '12.345', 'Longitude': ' 12.345'}, 'No HP': '0832123123'}}
 opsihome = ""
 
 while opsihome != "3":
